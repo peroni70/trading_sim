@@ -1,0 +1,8 @@
+INIT: {
+balance: 10000.
+portfolio:      
+short_pos:          
+date: 20090318
+}
+
+buy aapl 1 whenever sma 5 < 10000
